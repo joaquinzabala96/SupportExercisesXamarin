@@ -1,0 +1,27 @@
+﻿<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"  
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"  
+             xmlns:local="clr-namespace:MasterDetailsPage"  
+             x:Class="Ejercicio2.MainPage" Title="I am master" MasterBehavior="Popover" BackgroundColor="Cyan">
+
+    <MasterDetailPage.Master>
+        <ContentPage Padding="10" BackgroundColor="Gray" Title="Master">
+            <ContentPage.Content>
+                <StackLayout Margin="5,30,5,5">
+                    <Label Text="Master page Menu"></Label>
+                    <Button Text="HOLA" BackgroundColor="Yellow" Clicked="Button_Clicked"></Button>
+                    <Button Text="MUY BUENAS" BackgroundColor="Yellow" Clicked="Button_Clicked2"></Button>
+                    <Button Text="ADIOS" BackgroundColor="Yellow" Clicked="Button_Clicked3"></Button>
+                </StackLayout>
+            </ContentPage.Content>
+        </ContentPage>
+    </MasterDetailPage.Master>
+    <MasterDetailPage.Detail>
+        <ContentPage Padding="10">
+            <ContentPage.Content>
+                <StackLayout Margin="5,30,5,5">
+                    <Label Text="Detail Page"></Label>
+                </StackLayout>
+            </ContentPage.Content>
+        </ContentPage>
+    </MasterDetailPage.Detail>
+</MasterDetailPage>  
