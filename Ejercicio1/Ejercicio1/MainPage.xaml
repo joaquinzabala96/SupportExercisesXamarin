@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Ejercicio1"
+             x:Class="Ejercicio1.MainPage">
+
+    <StackLayout>
+        <Label HorizontalOptions="Center">Esto es un boton redondo y lo demas es tonteria</Label>
+        <Button WidthRequest="200" HeightRequest="200" BorderRadius="100" HorizontalOptions="Center" VerticalOptions="Center" Text="Boton redondeado"></Button>
+    </StackLayout>
+
+</ContentPage>
