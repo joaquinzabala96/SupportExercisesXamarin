@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Ejercicio6"
+             x:Class="Ejercicio6.MainPage">
+
+    <StackLayout>
+        <!-- Place new controls here -->
+        <Label x:Name="Labelsillo" Text="Auronplay > Wismichu" 
+           HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" />
+        <Button Text="Ni se te ocurra"  Clicked="Button_Clicked"
+            VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
+        </Button>
+    </StackLayout>
+
+</ContentPage>
